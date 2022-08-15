@@ -1,0 +1,4 @@
+Puede sincronizar el acceso a un método modificándolo con la palabra clave synchronized. Cuando se llama a ese método, el hilo de llamada entra en el monitor del objeto, que luego bloquea el objeto.
+
+Mientras está bloqueado, ningún otro hilo puede ingresar al método, o ingresar cualquier otro método sincronizado definido por la clase del objeto.
+Cuando el hilo retorna del método, el monitor desbloquea el objeto, permitiendo que sea utilizado por el siguiente hilo. Por lo tanto, la sincronización se logra con prácticamente ningún esfuerzo de programación de tu parte.

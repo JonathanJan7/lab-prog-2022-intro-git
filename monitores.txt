@@ -1,0 +1,4 @@
+ Un monitor es un mecanismo de sincronizacion en Java, que controla el acceso a un objeto y
+ funciona implementando el concepto de bloqueo (lock).
+  Cuando un objeto está bloqueado por un hilo, ningún otro hilo puede obtener acceso al objeto.
+  Cuando el hilo sale, el objeto está desbloqueado y está disponible para ser utilizado por otro hilo.
